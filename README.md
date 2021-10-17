@@ -1,16 +1,25 @@
-### Hi there 👋
+# samuzora
 
-<!--
-**samuzora/samuzora** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## What
 
-Here are some ideas to get you started:
+[CTF Writeups](https://github.com/samuzora/CTF-Writeups) or other random repos
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Who
+
+I'm a student at Anglo-Chinese School (Independent) and not very good at anything I do.
+
+## Where
+
+Singapore
+
+## When
+
+someday
+
+## How
+
+I'm fine
+
+## Why
+
+are we here just to suffer
