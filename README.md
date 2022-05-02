@@ -25,6 +25,7 @@ Also have some decent experience with Pyjails!
 #### 2022
 
 * VU Cyberthon - 9th place
+* CTF.SG - 6th place
 * Sieberrsec - 3rd place
 * Whitehacks - 3rd place
 * Imperial CTF - 13th place
