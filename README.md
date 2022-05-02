@@ -56,7 +56,7 @@ repl and copy-paste the provided payload. *That's it.*
 
 Once the program detects the format-string leak, it will automatically start fuzzing.
 
-![ffuzzer in action!](./files/ffuzzer-whatugonnado.png)
+![ffuzzer in action!](./files/ffuzzer.svg)
 
 Check out the above link for more details!
 
