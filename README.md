@@ -4,7 +4,7 @@
 
 ---
 
-Konnichiwassup! I'm mostly into CTFs and Python development. In my free time, I attempt to work on my 
+Konnichiwassup! I'm mostly into CTFs and Python development, currently learning Go and ReactJS. In my free time, I attempt to work on my 
 many unfinished projects (but end up over-configuring my init.vim instead). 
 
 ## :triangular_flag_on_post: CTFs :triangular_flag_on_post:
@@ -33,22 +33,47 @@ Also have some decent experience with Pyjails!
 
 ---
 
-## Projects 
+## :clipboard: Projects :clipboard:
+
+### [CTF-cord](https://github.com/samuzora/CTF-cord)
+
+CTF-cord is a Discord bot that aims to meet all your CTF needs 
+(excluding solving the challs for you)
+
+CTF-cord's backbone is CTFtime. To be honest, I really started off just wanting to scrap CTF data from CTFtime
+and display it in an embed. 
+
+![Embed](./files/ctftime-embed.png)
+
+Currently, it has many more features, including:
+
+* CTF channel and scheduled event management
+* Automated reminders 
+* Weekly CTFtime upcoming-CTFs updates
+* Point distribution calculation + member percentage contribution
+
+Here's the [invite](https://discord.com/api/oauth2/authorize?client_id=934122115366547526&permissions=541434768464&scope=bot%20applications.commands), feel free to add it to your server :) The bot will be hosted indefinitely, but if it happens to be down someday, you can always clone the repo and host it on your own VPS.
+
+Still undergoing active development, feel free to suggest new features :sparkles: or report any bugs :cockroach:
+
+---
 
 ### [ffuzzer](https://github.com/samuzora/ffuzzer)
 
 ffuzzer is a CLI format-string fuzzer for CTF Pwn challenges. Its use case is pretty niche, 
-specifically *full RELRO format string challs with  buffer overflow*. 
+specifically *full RELRO format string challs with buffer overflow*. 
 
 However, it does find your offset as well, which can be applied to general format string writes (nothing that Pwntools can't
 already do). 
+
+Ultimately, this tool aims to make format string exploitation as easy as can be, with the help of Pwntools. 
 
 It can fuzz:
 
 1. Offset of input on stack
 2. Canary offset (pretty accurate!)
 3. PIE base (pretty accurate!)
-4. LIBC base (not pretty accurate, recommended way should be targeted read via {addr}%{offset}$s)
+4. LIBC base (not accurate, recommended way should be targeted read via {addr}%{offset}$s)
 
 The main selling point of this tool is basically the no-scripting-required fuzzing.
 
@@ -59,20 +84,4 @@ Once the program detects the format-string leak, it will automatically start fuz
 
 ![ffuzzer in action!](./files/ffuzzer.svg)
 
-Check out the above link for more details!
-
----
-
-### [CTF-cord](https://github.com/samuzora/CTF-cord)
-
-CTF-cord is a Discord bot that aims to meet all your CTF needs 
-(excluding solving the challs for you)
-
-CTF-cord's backbone is CTFtime. To be honest, I really started off just wanting to scrap CTF data from CTFtime
-and display it in a pretty embed. 
-
-![Pretty pretty embed](./files/ctftime-embed.png)
-
-When it ran first try, I believed this was a sign from the (Neo)vi(m) deities to extend this bot into a fully-functioning CTF manager.
-
-I've been working on this project for a while now. Once I've ironed out most of the kinks, I'll release the invite link. For now, if you like, you can always clone the repo and host the bot somewhere. Stay posted!
+Check out the link in the header for more details!
