@@ -30,6 +30,7 @@ Also have some decent experience with Pyjails!
 * Whitehacks - 3rd place
 * Imperial CTF - 13th place
 * Winja CTF - 3rd place
+* YCEP - 1st place
 
 ---
 
@@ -85,3 +86,7 @@ Once the program detects the format-string leak, it will automatically start fuz
 ![ffuzzer in action!](./files/ffuzzer.svg)
 
 Check out the link in the header for more details!
+
+---
+
+### ctf-platform
