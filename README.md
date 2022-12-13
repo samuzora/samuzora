@@ -31,6 +31,8 @@ Also have some decent experience with Pyjails!
 * Imperial CTF - 13th place
 * Winja CTF - 3rd place
 * YCEP - 1st place
+* Codegate 2022 Finals - 4th place
+* STACK the Flags 2022 (JC Category) - 3rd place
 
 ---
 
