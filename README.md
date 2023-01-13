@@ -11,7 +11,7 @@ many unfinished projects (but end up over-configuring my init.vim instead).
 
 If I'm not busy mugging for my studies, you can usually find [me](https://ctftime.org/team/177451) playing in CTFs over the weekend. 
 
-I main Web and Pwn, and the occasional low-hanging crypto challenge. 
+I main web and pwn, and the occasional low-hanging crypto challenge. 
 Also have some decent experience with Pyjails!
 
 ### Notable wins
@@ -33,6 +33,10 @@ Also have some decent experience with Pyjails!
 * YCEP - 1st place
 * Codegate 2022 Finals - 4th place
 * STACK the Flags 2022 (JC Category) - 3rd place
+
+#### 2023
+
+* Sieberrsec 2023 (Secondary Category) - 1st place
 
 ---
 
@@ -57,7 +61,7 @@ Currently, it has many more features, including:
 
 Here's the [invite](https://discord.com/api/oauth2/authorize?client_id=934122115366547526&permissions=541434768464&scope=bot%20applications.commands), feel free to add it to your server :) The bot will be hosted indefinitely, but if it happens to be down someday, you can always clone the repo and host it on your own VPS.
 
-Still undergoing active development, feel free to suggest new features :sparkles: or report any bugs :cockroach:
+Still undergoing development, feel free to suggest new features :sparkles: or report any bugs :cockroach:
 
 ---
 
@@ -76,7 +80,7 @@ It can fuzz:
 1. Offset of input on stack
 2. Canary offset (pretty accurate!)
 3. PIE base (pretty accurate!)
-4. LIBC base (not accurate, recommended way should be targeted read via {addr}%{offset}$s)
+4. Custom strings
 
 The main selling point of this tool is basically the no-scripting-required fuzzing.
 
